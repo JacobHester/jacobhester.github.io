@@ -82,4 +82,9 @@ img{
     height: 700px;
     
 }
+a{
+    position: relative;
+    top: 210px;
+    left: 40px;
+}
 
