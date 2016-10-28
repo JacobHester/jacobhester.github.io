@@ -16,31 +16,26 @@
     <input type='text' id='search' placeholder="Search">
     
     <ul>
-    <li class="n">
+    <li class="list">
         <a href="weathersire.html" title="franklin">Franklin</a></li>
-    <li class="n">
-        <a href="#" title="greenville">Greenville</a></li>
-    <li class="n">
+    <li class="list">
+        <a href="weathergreen.html" title="greenville">Greenville</a></li>
+    <li class="list">
         <a href="#" title="springfield">Springfield</a></li>
     </ul>
 </nav>
 </header>
 </div>
         
-<main>
+<main class="main">
 <h2 class="head">Franklin, ID</h2>
 <figure>
-        <img src="/images/sunfranklin.svg" alt="Sunny" id="sun">
+        <img src="/images/sunfranklin.svg" alt="Sunny" class="sun" id="sunny">
 </figure>
 <h3 class="sum">Summary: Sunny<br>High: 90 Low: 66<br>Precip 0%<br>Wind: 1-5mph Southwest</h3>
     
-<p id='long' class="sum">Longitude: -111.803757<br>
-		Latitude: <br> 42.011902<br><br>
-		zip: 83237</p>
-    
-
-<h3 class="head">Hourly Forcast</h3>
-<p id="hour">
+<p class="p" id="hour">
+    Hourly Forcast
                 12am: 67 |  12pm: 84<br> 
                 1am:  67 |  1pm:  86<br>
                 2am:  69 |  2pm:  88<br>
@@ -55,11 +50,14 @@
                 11am: 81 |  11pm: 66<br>
                 
 </p>
+<p id='long' class="p">Longitude: -111.803757<br>
+		Latitude: <br> 42.011902<br><br>
+		zip: 83237</p>
     
 
 </main>
         
-<footer>
+<footer class="divbar">
             <ul>
                 <li>&copy;2016</li>
                 <li>Jacob Hester </li>
@@ -67,9 +65,9 @@
             </ul>
 </footer>
             <figure>
-            <img id='wire' src="/images/IMG_0944.PNG" alt='phone wireframe'>
-            <img id='tablet' src='/images/IMG_0943.PNG' alt='tablet wireframe'>
-            <img id='desk' src='/images/IMG_0942.PNG' alt='desktop wireframe'>
+            <img class="wires" id='wire' src="/images/IMG_0944.PNG" alt='phone wireframe'>
+            <img class="wires" id='tablet' src='/images/IMG_0943.PNG' alt='tablet wireframe'>
+            <img class="wires" id='desk' src='/images/IMG_0942.PNG' alt='desktop wireframe'>
             </figure> 
 </body>
 

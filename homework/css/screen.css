@@ -1,7 +1,6 @@
 /*Change the bos model*/
 html *{
     box-sizing: border-box;
-    
     }
 
 *:before, *:after{
@@ -9,25 +8,80 @@ html *{
     }
     
 body{
-    
-    font-family: Helvetica,Arial,sans-serif;
+     font-family: Helvetica,Arial,sans-serif;
     background-color: #FFF;
+        }
 
+.main{ 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     }
+
+.sun{
+    order: 2;
+}
+
+.p{
+    display: none;
+    text-align: center
+   }
+
+.wires{
+    width: 200px
+}
+
+#tablet, #desk{
+    display: none;
+}
 
 .divbar{
     background-color:slategray;
-    margin: 0px;
-    position: relative;
-    text-align: center;
-    padding: 0px;
-    min-width: 433px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    
+    
     }
+li {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    font-size: 20px;
+}
+.head{
+    width: 100%;
+    text-align: center;
+}
 
-.n{
+@media only screen and (min-width: 500px) {
+    
+    #wire{display: none;}
+    #tablet{display: flex; width: 75%;}
+    .p{ display: flex; padding: 50px; font-size: 20px; justify-content: center;}
+    .main{flex-flow: row wrap; justify-content: center; align-items:baseline;}
+    .sun{width: 20em; margin-right: 200px; margin-left: 200px; }
+    #long{display: none}
+}
+
+@media only screen and (min-width: 1024px) {
+    
+    #long{display: flex;}
+    .main{ flex-flow: row wrap; justify-content: center; align-items: center}
+    .sun{width: 20em; margin-right: 0px; margin-left: 0px;}
+    #sunny{width: 30em; max-width: 300px}
+    #tablet{display: none;}
+    #desk{display: flex; width: 40em;}
+    
+}
+
+
+
+
+
+/*
+.list{
     font-size: 15px;
-    position: relative;
-    right: 20px;
+    
     
     
     }
@@ -81,7 +135,7 @@ footer{
 #desk{
     display: none;
 }
-#sun{
+.sun{
     position: relative;
     left: 25px;
     border: 2px solid black;
@@ -90,25 +144,20 @@ footer{
 }
 #long{display: none;}
 
-nav{
-    }
 
-li {
-    display: inline;
-    }
 @media only screen and (min-width: 500px) {
-    /*.divbar{ width: 100%; padding: 5px;}
-    footer{ width: 100%;}
-    footer{ width 250%; padding: 20px; text-align: center;}*/
+   
     #hour{display: block; position: relative; font-size: 20px; width: 200px; text-align: center;}
     .sum{ position: relative; left: 0px; font-size: 20px; width: 200px; text-align: center;}
     h3.head{font-size: 20px;}
-    #sun{position: absolute; left: 230px; width: 65%;}
+    .sun{position: absolute; left: 230px; width: 65%;}
+    #thunder {min-width: 400px;}
     #wire{display: none;}
     #tablet{display: block; width: 40%;}
 }
 @media only screen and (min-width: 1024px) {
-    #sun{position: absolute; left: 350px; width: 45%; }
+    .sun{position: absolute; left: 350px; width: 45%; }
+    #thunder {min-width: 400px;}
     .sum{font-size: 30px; min-width: 300px; text-align: left}
     h2{font-size: 30px;}
     h3.head{position: relative; left: 1100px; bottom: 500px; font-size: 30px; max-width: 230px}
@@ -118,7 +167,7 @@ li {
     li.n{font-size: 20px;}
     #long{display: block;}
     
-    
+*/  
     
     
 }

@@ -6,7 +6,25 @@ html *{
 *:after{
     box-sizing: border-box;
 }
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.box {
+    min-width: 200px;
+    text-align: center;
+    
+    
+}
+aside {max-width: 300px;}
+ul {max-width: 300px;}
 
+.cen {
+    display: flex;
+    justify-content: center;
+
+}
+/*
 body{
     font: 20px "times new roman", times, serif;
     margin: 0;
@@ -31,4 +49,9 @@ main,
  main{
       width: 50%;  
     }
+}*/
+body{
+    display: flex;
+    flex-direction: column-reverse;
+    
 }
