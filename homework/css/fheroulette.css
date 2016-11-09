@@ -3,13 +3,9 @@ html *{
 
 body{
      font-family: Helvetica,Arial,sans-serif;
-    background-image: url(../../images/edit3byui.jpg);
+    background-image: url(../../images/mobile3byui.jpg);
 }
-/*#background{
-    background-image: url(../../images/backgroundbyui.jpg);
-    opacity: 0.6;
-    position: relative;
-*/
+
 
 #wrapper{
     display: flex;
@@ -23,6 +19,9 @@ body{
     color: white;
     display: flex;
     justify-content: center;
+    
+    }
+#one{color: black;
     
 }
 b{
@@ -71,6 +70,19 @@ button:active{
     color: black;
 }
 
+@media only screen and (min-width: 1000px) {
+    
+    #wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    }
+    
+    .headfoot{
+    background-color: #0076c6;
+    color: white;
+    display: flex;
+}
+}
 
 
 
