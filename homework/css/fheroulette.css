@@ -10,6 +10,7 @@ body{
 #wrapper{
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     
     }
     
@@ -75,6 +76,7 @@ button:active{
     #wrapper{
     display: flex;
     flex-flow: row wrap;
+    justify-content: flex-start;
     }
     
     .headfoot{
