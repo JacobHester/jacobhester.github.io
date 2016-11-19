@@ -65,12 +65,17 @@ button{
 }
 button:hover{
     color: red;
+    background-color: black;
+}
+button:focus{
+    color: red;
+    background-color: firebrick;
 }
 button:active{
     color: black;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 500px) {
     
     #wrapper{
     display: flex;
@@ -83,6 +88,9 @@ button:active{
     color: white;
     display: flex;
 }
+    body{
+        background-image: url(../../images/edit2byui.png);
+    }
 }
 
 

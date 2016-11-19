@@ -193,6 +193,12 @@ h1 {
 		float: left;
 		width: 50%;
 	}
+	
+    .featured-image picture {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
 	.featured-video {
 		float: left;
 		display: inline-block;
