@@ -23,14 +23,25 @@ $(function () {
   // Get the data from the wunderground API
   function getData(lat, long){
     $.ajax({
-         url : "http://api.wunderground.com/api/c880e7d6a7b2d90e/geolookup/conditions/q/IA/" + lat + "," + long + ".jsonp",
+         url : "http://api.wunderground.com/api/c880e7d6a7b2d90e/geolookup/conditions/q/" + lat + "," + long + ".jsonp",
   dataType : "jsonp",
   success : function(parsed_json) {
 console.log(parsed_json);
   var location = parsed_json['location']['city'];
     var state = parsed_json['location']['state'];
   var temp_f = parsed_json['current_observation']['temp_f'];
-  $("#cityDisplay").text("Current temperature in " + location + " is: " + temp_f)
+    var summary = parsed_json['current_observation']['weather'];
+var humidity = parsed_json['current_observation']['relative_humidity'];
+    var celc = parsed_json['current_observations']['temp_c'];
+  
+      
+      $("#cityDisplay").text(location + " " + state);
+      $("#summary").text(summary);
+      $('#currentTemp').text(temp_f);
+      $('#add1').text(humidity + "Humidity");
+      $('#add2').text(celc);
+      
+      
 
 
 
