@@ -37,9 +37,9 @@ var wind = parsed_json['current_observation']['wind_mph'];
       
       $("#cityDisplay").text(location + " " + state);
       $("#summary").text(summary);
-      $('#currentTemp').text(temp_f);
+      $('#currentTemp').text(temp_f + "°F");
       $('#add1').text(humidity + "Humidity");
-      $('#add2').text(celcius + " " + "Degrees Celsius");
+      $('#add2').text(celcius + " " + "°C");
       $('#add3').text(wind + "mph");
       
 
