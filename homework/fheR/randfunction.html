@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link href="css/screen.css" type="text/css" rel="stylesheet" media="screen">
+    <meta charset="utf-8">
+    <title>Practice File</title>
+    <script type="text/javascript">
+        
+        function select(){
+            
+            var selector = Math.floor(Math.random() * 21);
+            document.getElementById("output").innerHTML = selector;
+        }
+    
+    </script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>CIT 230</h1>
+        </header>
+        <main>
+            <p>Generate a random number from 20-0, hopefully.</p>
+            <button type="button" onClick="select()">Click Me</button>
+            <div id="output"></div>
+            
+
+       
+
+        </main>
+        <footer>
+            <ul>
+                <li>&copy;2016</li>
+                <li>
+                    <!--Add your name here, replacing this comment-->
+                </li>
+                <li>Last Updated:
+                    <!-- Put today's date following the colon -->
+                </li>
+            </ul>
+            <p> </p>
+        </footer>
+    </div>
+</body>
+
+</html>
