@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Home</title>
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/screen.css" type="text/css" media="screen">
+</head>
+<!-- *********************************************
+* Who Did You Collaborate With On This Assessment?
+* 1. Jake Hester  
+* 2. Marty Thomas
+* 3. Brock Olson
+* 4.
+* 5.
+* ******************************************** -->
+    <body>
+    <div id="wrapper">
+        <div class="divbar">
+         <header id="myheader"></header>
+        </div>
+    <main class="main">
+      <section class="weather-container">
+           
+          <form method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
+    <input type="search" name="query" id="query">
+    <input type="submit" name="submit" value="Search" id="send">
+     </form>
+        
+        <section id="searchResults">
+        <h2>Search Results</h2>
+        </section>
+        
+    
+          <h1 id="loc"></h1>
+        <div id="summary"></div><br>
+        <div id="tempf"></div><br>
+        <div id="tempC"></div><br>
+        <div id="wind"></div><br>
+        <div id="hum"></div><br>
+    
+        </main> <footer class="divbar" id="myfooter">
+      <div id="footer-content"></div>
+      <small>Last updated: </small>
+    </footer>
+      <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+     <script src="../../JavaScript/modules.js"></script>
+    <script src="wsearch.js"></script></div></body>

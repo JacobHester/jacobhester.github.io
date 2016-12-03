@@ -21,6 +21,10 @@ body{
 .sun{
     order: 2;
 }
+#query{
+    margin: 10px;
+}
+
 
 .p{
     display: none;

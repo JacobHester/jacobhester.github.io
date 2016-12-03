@@ -42,6 +42,11 @@ body{
     
     
 }
+#fruits{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
 
 video{
     max-width: 350px;
@@ -69,7 +74,9 @@ li{
 .list{
     padding-left: 50px;
     padding-right: 50px;
+    
 }
+
 a{
     color: white;
 }
@@ -80,6 +87,8 @@ a:hover{
 a:focus{
     color: darkgray;
 }
+
+
 
 
 .fhe{
