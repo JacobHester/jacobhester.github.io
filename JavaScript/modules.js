@@ -1,7 +1,7 @@
 $(function() {
-$("#myheader").load("/weather_site/weatherheader.html");
+$("#myheader").load("../weather_site/weatherheader.html");
 });
 
 $(function() {
-$("#myfooter").load("/weather_site/weatherfooter.html");
+$("#myfooter").load("../weather_site/weatherfooter.html");
 });

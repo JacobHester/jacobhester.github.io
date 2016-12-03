@@ -4,7 +4,7 @@
             $.getJSON("https://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function(data) {
                 console.log(data); // test for JSON received
                 // Begin building output
-                var output = '<ol id="ol">';
+                var output = '<ol id="yes">';
                 $.each(data.RESULTS, function(key, val) {
                     if (val.name.search(rExp) != -1) {
                     output += '<li>';
@@ -79,6 +79,6 @@ $("#searchResults").on("click", "a", function (evt) {
 });
 
 $("#searchResults").on('click', "a", function(evt){
-    document.getElementById('ol').style.display="none";
+    document.getElementById('yes').style.display="none";
 })
 
