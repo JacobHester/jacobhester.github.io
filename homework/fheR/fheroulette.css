@@ -11,8 +11,6 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    border: 5px;
-    border-color: black;
     
     }
 
@@ -32,6 +30,10 @@ body{
     
     
     }
+
+#feet{
+    
+}
 #vid{
     display: flex;
     flex-flow: row nowrap;
@@ -88,6 +90,10 @@ a:focus{
     color: darkgray;
 }
 
+a:active{
+    color: darkgray;
+}
+
 
 
 
@@ -110,16 +116,18 @@ button:focus{
     color: white;
     
 }
-button:active{
-    color: black;
 
-}
 
 footer{
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    background-color: darkgray;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+#homework{
+    text-align: center;
 }
 
 @media only screen and (min-width: 500px) {
@@ -159,6 +167,17 @@ footer{
     body{
        /* background-image: url(../../images/edit2byui.png);*/
     }
+    
+    button{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    #output{
+        
+         margin-left: 200px;
+        margin-right: 200px;
+    }
+    
 }
 
 @media only screen and (min-width: 1023px){
@@ -168,9 +187,33 @@ footer{
     }
     
     #wrapper{
-        flex-flow: row nowrap;
-        justify-content: flex-start;
+        flex-flow: row wrap;
     }
+    
+    .content{
+        text-align: center;
+    }
+    footer{
+/*    min-width: 1200px;*/
+        
+    }
+    .fhe{
+       padding-right: 400px;
+      padding-left: 400px; 
+        justify-content: center;
+    }
+    
+    #output{
+/*        The div that contains the output of the roulette function*/
+      justify-content: center;
+    }
+    .out{
+/*        The divs that contain the individual outputs of the function*/
+        min-width: 600px;
+        margin: 30px;
+        justify-content: center;
+    }
+    
     
     
 }

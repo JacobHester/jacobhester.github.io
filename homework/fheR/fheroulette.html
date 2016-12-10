@@ -29,23 +29,20 @@
     
     <div id="wrapper">
         <div id="button">
-    <button type="button" onClick="roulette()">CLICK TO<br><img src="../../images/roulette.jpg" alt="roulette"><br>GENERATE FHE!</button>
+    <button type="button" class="roulette">CLICK TO<br><img src="../../images/roulette.jpg" alt="roulette"><br>GENERATE FHE!</button>
         </div>
+        
+        
         <div id="output">
     <h2 class="fhe">Spiritual Thought:</h2>
-    <div id="h2"></div>
-    <h3 class="fhe">Activity:</h3>
-    <div id="h3"></div>
+    <div id="h2" class="out"></div>
+    <h3 class="fhe" >Activity:</h3>
+    <div id="h3" class="out"></div>
     <h4 class="fhe">Snack/Dessert:</h4>
-    <div id="h4"></div>
+    <div id="h4" class="out"></div>
         </div>
-        
+        </div>
     
-        
-    </div>
-    <div id="vid">
-    <video src="../../responsive_media/images/pack_mules.mp4.mp4" class="featured-video" controls preload="metadata"></video>
-    </div>
     
     <footer id="fhefoot"></footer>
     
@@ -53,26 +50,12 @@
     
  
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-<script src="fhemodule.js"></script>
-<script src="fhedata.json"></script>
+<script src="fheajax.js"></script>
+<!--<script src="fhedata.json"></script>-->
 <script type="text/javascript">
     
-    function roulette(){
-        
-        var spt1 = "Scripture: Read together the first verse of 1 Nephi. Ask for everyone to think about what it says and read it again by themselves. Ask if anyone learned something new. Lead a discussion about how much information is contained in the scriptures that we often look over. Commit your familiy to read the whole chapter of 1 Nephi 1 marking everything new that they didn't observe before.";
-        
-        var act1 = "Travel: Go to Porter Park and play capture the flag. Split teams evenly and play an practice round to gauge athletesism. Further adjust team to ensure equally matched rounds. 5 points to win. Establish two base areas that are 20 feet by 20 feet. Guards cannot stand still in this area. If tagged accross the midline you must return to this area before you can continue to play.";
-        
-        var ds1 = "Root Beer Floats!!! Est. Cost = $10."
-        
-        document.getElementById("h2").innerHTML = spt1;
-        document.getElementById("h3").innerHTML = act1;
-        document.getElementById("h4").innerHTML = ds1;
-        
-    }
-        
-        
-    </script>
+
+</script>
     
 </body>
 
