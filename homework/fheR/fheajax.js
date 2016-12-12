@@ -44,7 +44,7 @@ $.getJSON( "fhesnacks.json", function( data ) {
 
 $('.roulette').click( function(){
                 var rn1 = Math.floor(Math.random() * 10);
-                var rn2 = Math.floor(Math.random() * 2);
+                var rn2 = Math.floor(Math.random() * 10);
                 var rn3 = Math.floor(Math.random() * 10);
     
 /*
