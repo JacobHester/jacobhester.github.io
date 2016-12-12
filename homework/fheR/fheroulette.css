@@ -13,6 +13,24 @@ body{
     justify-content: center;
     
     }
+.pagelinks{
+    /*THE LINKS IN THE JSON FILES*/
+    color: black;
+    max-height: 20px;
+    position: absolute;
+    
+}
+
+
+/*
+.out{
+    ROULETTE OUTPUT DIVS CLASS
+    display: flex;
+    justify-content: center;
+}
+*/
+
+
 
 #top{
     display: flex;
@@ -31,9 +49,10 @@ body{
     
     }
 
-#feet{
-    
-}
+ .content{
+        text-align: center;
+    }
+
 #vid{
     display: flex;
     flex-flow: row nowrap;
@@ -44,10 +63,26 @@ body{
     
     
 }
-#fruits{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
+
+}
+.my-new-list{
+    display: inherit;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/*
+  #output{
+        The div that contains the output of the roulette function
+      justify-content: center;
+    }
+*/
+
+.fhe{
+    text-align: center;
+}
+#h4{
+    padding-bottom: 20px;
 }
 
 video{
@@ -66,6 +101,7 @@ nav{
     background-color: black;
     display: flex;
     justify-content: center;}
+/*
 li{
     display: inline-flex;
     font-size: 20px;
@@ -73,9 +109,15 @@ li{
     padding-left: 5px;
     padding-right: 5px;
 }
+*/
 .list{
     padding-left: 50px;
     padding-right: 50px;
+    display: inline-flex;
+    font-size: 20px;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
     
 }
 
@@ -190,9 +232,6 @@ footer{
         flex-flow: row wrap;
     }
     
-    .content{
-        text-align: center;
-    }
     footer{
 /*    min-width: 1200px;*/
         
@@ -203,16 +242,32 @@ footer{
         justify-content: center;
     }
     
-    #output{
-/*        The div that contains the output of the roulette function*/
-      justify-content: center;
-    }
+
     .out{
 /*        The divs that contain the individual outputs of the function*/
         min-width: 600px;
         margin: 30px;
-        justify-content: center;
+        text-align: center;
     }
+    
+   
+    .my-new-list{
+
+/*        text-align: center;*/
+    }
+
+    li{
+
+/*
+    display: inline-flex;
+    font-size: 20px;
+    justify-content: space-between;
+*/
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+*/
     
     
     

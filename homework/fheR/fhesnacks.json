@@ -1,11 +1,24 @@
 {
     
-    "1": [
-        "Drink: Make root beer floats! Estimated cost = $10.00"
+    "1": ["Drink:<br><br> Root Beer Floats! You will need root beer, and vanilla ice cream<br><br>"
     ],
     
-    "2":[
-        "Food: Make Jalepeno Poppers."
-    ]
+    "2": ["Dip:<br><br>Fruit Dip! Find ingredients <a href='http://allrecipes.com/recipe/20655/bonnies-fruit-dip/' class='pagelinks'>_Here_</a><br><br>"],
+    
+    "3": ["Food:<br><br>3 Ingredient Nutella Brownies! Find ingredients <a href='http://kirbiecravings.com/2013/02/easiest-3-ingredient-nutella-brownies.html' class='pagelinks'>_Here_</a><br><br>"],
+    
+    "4": ["Drink:<br><br>Butter Beer! Find ingredients <a href='http://www.foodnetwork.com/recipes/butterbeer-recipe.html' class='pagelinks'>_Here_</a><br><br>"],
+    
+    "5": ["Dip:<br><br>Mexican Style Salsa! You will need 1lb of roma tomates, 1 onion, 4 cloves of garlic, cilantro, 2 serrano or jalepeno chiles. Feeds 12. Heat up a frying pan with oil and put the  whole tomatoes, chiles, garlic cloves and half of the onion inside. Cook on medium heat until the tomates are tender and the chiles have changed to a lighter shade of green. Chop up the remaining onion and half the cilantro. Blend the whole cooked tomatoes, onion, chiles, and garlic. Add to a bowl with the chopped onion and cliantro.<br><br>"],
+    
+    "6": ["Food:<br><br>Jalapeno Poppers! Find ingredients<a href='http://www.bettycrocker.com/recipes/bacon-wrapped-jalapeno-poppers/e2d02568-8d4d-4072-b32a-8445e5558480' class='pagelinks'>_Here_</a><br><br>"],
+    
+    "7": ["Drink:<br><br> Agua Fresca Mexicana! You will need any type of fruit you desire, sugar, and water. Fill a blender with your fruit (suggestions: Watermelon, Cantaloupe, Mango, Bananna) and add enough water to easily blend it. It should be thin enough to drink and should taste like the fruit without being very sweet. Add sugar to compensate the addition of water. Serve with ice!<br><br>"],
+    
+    "8": ["Dip:<br><br>Peanut Butter Brownie Dip! Find ingredients <a href='http://www.crazyforcrust.com/2014/09/peanut-butter-brownie-batter-dip/' class='pagelinks'>_Here_</a><br><br>"],
+    
+    "9": ["Food:<br><br> 2 Ingredient Peanut Butter Bananna Ice Cream! Find ingredients<a href='http://www.twopeasandtheirpod.com/two-ingredient-banana-peanut-butter-ice-cream/' class='pagelinks'>_Here_</a><br><br>"],
+    
+    "10": ["Drink:<br><br> Pineapple Orange Sherbet Punch! Find ingredients<a href='http://www.tablespoon.com/recipes/pineapple-orange-sherbert-punch/7640fd06-d495-47cf-a688-915cc7103a9c' class='pagelinks'>_Here_</a><br><br>"]
 
 }
