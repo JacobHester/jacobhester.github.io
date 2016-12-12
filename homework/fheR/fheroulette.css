@@ -232,10 +232,6 @@ footer{
         flex-flow: row wrap;
     }
     
-    footer{
-/*    min-width: 1200px;*/
-        
-    }
     .fhe{
        padding-right: 400px;
       padding-left: 400px; 
@@ -267,7 +263,7 @@ footer{
     padding-left: 5px;
     padding-right: 5px;
 }
-*/
+
     
     
     

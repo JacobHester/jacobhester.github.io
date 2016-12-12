@@ -73,24 +73,3 @@ IF YOU ARE WONDERING WHY I USED VANILLA AND A NORMAL ARRAY HERE... *ITS BECUASE 
 
                 
 });
-
-
-
-
-
-
-
-
-
-
-/* function roulette(){
-        
-        var selector = Math.floor(Math.random() * 2);
-        
-        
-        
-        document.getElementById("h2").innerHTML = spt1;
-        document.getElementById("h3").innerHTML = act1;
-        document.getElementById("h4").innerHTML = ds1;
-        
-    }*/
