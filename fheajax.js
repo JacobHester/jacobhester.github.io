@@ -10,6 +10,7 @@ $.getJSON( "fhemessages.json", function( data ) {
   var items = [];
   $.each( data, function( key, val ) {
     items.push( "<li id='" + key + "'>" + val + "</li>" + "<br><br>" );
+      console.log(items);
   });
  
   $( "<ul/>", {
@@ -22,6 +23,7 @@ $.getJSON( "fheactivity.json", function( data ) {
   var items = [];
   $.each( data, function( key, val ) {
     items.push( "<li id='" + key + "'>" + val + "</li>" + "<br><br>" );
+      console.log(items);
   });
  
   $( "<ul/>", {
