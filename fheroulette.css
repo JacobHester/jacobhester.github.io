@@ -57,11 +57,16 @@ body{
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
     
     
     
+    
+}
+img{
+    max-width: 400px;
+}
+video{
+    max-height: 400px;
 }
 
 }
