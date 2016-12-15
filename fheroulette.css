@@ -133,6 +133,10 @@ li{
 a{
     color: white;
 }
+#home{
+    background-color: black;
+}
+
 a:hover{
     color: darkgray;
     
